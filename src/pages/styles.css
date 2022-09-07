@@ -1,9 +1,8 @@
-
 .body {
   display: flex;
   max-width: 100vw;
   width: 100%;
-  color: #837E9F;
+  color: #837e9f;
   padding: 40px;
 }
 
@@ -14,23 +13,28 @@
 }
 
 .main {
-  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 3%;
+  row-gap: 30px;
 }
 
-.card-side{
+.card-side {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #302F3D;
+  background-color: #302f3d;
   border-radius: 20px;
   padding: 20px 20px;
+  width: 348px;
 }
 
 .perfil img {
   width: 128px;
   border-radius: 100%;
-  border: 2px solid #00FF00;
+  border: 2px solid #00ff00;
   margin: 20px;
 }
 
@@ -49,7 +53,8 @@
   align-items: flex-start;
 }
 
-.location label, a {
+.location label,
+a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,7 +62,8 @@
   margin-block: 10px;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: inherit;
   text-decoration: none;
 }
@@ -78,7 +84,50 @@ a, a:visited {
   font-weight: bold;
   font-size: 0.7rem;
   padding: 5px 10px;
-  background-color: #CB92B1;
+  background-color: #cb92b1;
   color: black;
   border-radius: 30px;
+}
+
+.h1-exp {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.p {
+  font-weight: bold;
+}
+
+.p-txt {
+  font-size: 0.9rem;
+}
+
+.card-side ul li {
+  margin-left: 20px;
+}
+
+.My-Projects {
+  background-color: #302f3d;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+main ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+main li {
+  background-color: #302f3d;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card-side ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

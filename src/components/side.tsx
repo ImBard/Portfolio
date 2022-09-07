@@ -65,6 +65,43 @@ export function Side() {
           <a href="">NESTJS</a>
         </div>
       </div>
+
+      <div className="card-side">
+        <h1 className="h1-exp">Experiências</h1>
+        <ul>
+          <li>
+            <p className="p">Atento S/A Brasil</p>
+            <p className="p-txt">maio de 2019 - agosto de 2020</p>
+            <p className="p-txt">RH Motivacional</p>
+          </li>
+          <li>
+            <p className="p">Artifios Armarinhos</p>
+            <p className="p-txt">setembro de 2020 - novembro de 2021</p>
+            <p className="p-txt">Estoque</p>
+          </li>
+        </ul>
+      </div>
+      <div className="card-side">
+        <h1 className="h1-exp">Educação</h1>
+        <ul>
+          <li>
+            <p className="p">Valmar Lourenço Santiago</p>
+            <p className="p-txt">Ensino Medio</p>
+            <p className="p-txt">Concluído em 2017</p>
+          </li>
+          <li>
+            <p className="p">ETEC Prof. Ilza Nascimento pintus</p>
+            <p className="p-txt">Técnico em Desenvolvimento de Sistemas</p>
+            <p className="p-txt">fevereiro de 2020 - junho de 2022</p>
+          </li>
+
+          <li>
+            <p className="p">Fatec São José dos Campos</p>
+            <p className="p-txt">Análise e Desenvolvimento de Sistemas</p>
+            <p className="p-txt">agosto 2022 - Cursando</p>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

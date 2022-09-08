@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import {
   MapPin,
   GraduationCap,
@@ -6,9 +7,16 @@ import {
   EnvelopeSimple,
 } from "phosphor-react";
 
-export function Side() {
+interface Estilo {
+  display: boolean;
+}
+
+export function Side(props: Estilo) {
   return (
-    <div className="side">
+    <div className={classNames({
+      "side": props.display,
+      "side-hide": !props.display
+    })}>
       <div className="card-side">
         <div className="perfil">
           <img src="https://github.com/imbard.png" alt="img_perfil" />

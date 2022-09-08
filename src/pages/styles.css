@@ -95,17 +95,6 @@
   gap: 20px;
 }
 
-/* a,
-a:visited {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  margin-block: 10px;
-  color: inherit;
-  text-decoration: none;
-} */
-
 a,
 a:visited {
   display: flex;

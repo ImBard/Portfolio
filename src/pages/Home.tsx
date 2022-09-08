@@ -17,7 +17,7 @@ interface Repository {
 export function Home() {
   const [repos, setRepos] = useState<Repository[]>();
 
-  const [showSide, setShowSide] = useState<boolean>(false)
+  const [showSide, setShowSide] = useState<boolean>(true)
 
   axios.get("https://api.github.com/users/imbard/repos").then((response) => {
     setRepos(response.data);

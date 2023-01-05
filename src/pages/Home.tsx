@@ -31,7 +31,7 @@ export function Home() {
       <Side display={showSide}/>
 
       <main className="main">
-        <header className="My-Projects">My Projects</header>
+        <header className="My-Projects">Meus Projetos</header>
         <ul className="ul">
           {repos?.map((item) => {
             return (
